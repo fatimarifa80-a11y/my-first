@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
 * {
     box-sizing: border-box;
 }
@@ -19,16 +21,16 @@ body {
     font-size: 25px;
     font-weight: bold;
 }
-.nav-links {
+.nav-links a:hover {
     display: flex;
     align-items: center;
     gap: 25px;
 }
-.nav-links a {
+.nav-links a:hover {
     color: white;
     text-decoration: none;
 }
-.nav-btn {
+.nav-btn :hover {
     background-color: #ff69a6;
     color: white;
     border: none;
