@@ -31,6 +31,9 @@ body{
     padding: 25px;
     border-radius: 8px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 .foot{ 
     grid-area: foot;
@@ -45,4 +48,7 @@ body{
 }
 .main{
     grid-area: main;
+}
+.icon{
+    font-size: 25px;
 }
