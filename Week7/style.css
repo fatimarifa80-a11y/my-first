@@ -67,3 +67,22 @@ body {
     cursor: pointer;
     font-size: 16px;
 }
+.cards-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #f4f0fa;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    flex: 1 1 200px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
