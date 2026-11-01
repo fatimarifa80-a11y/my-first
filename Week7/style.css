@@ -36,4 +36,34 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    height: 400px;
+    background-color: #e8d9ff;
+    text-align: center;
+    padding: 20px;
+}
+
+.banner-content h1 {
+    font-size: 40px;
+    color: #243b55;
+}
+
+.banner-content p {
+    font-size: 18px;
+    color: #444;
+}
+
+.banner-btn {
+    background-color: #ff69a6;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
