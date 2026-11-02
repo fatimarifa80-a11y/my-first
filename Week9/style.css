@@ -105,8 +105,11 @@ footer {
 }
 @media (min-width: 1024px) {
 
-    .hero {
+    .hero img {
+        max-width: 100%;
         padding: 5rem;
+        height: auto;
+        border-radius: 12px;
     }
 
     .hero h1 {
