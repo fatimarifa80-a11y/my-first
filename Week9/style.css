@@ -103,3 +103,19 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+@media (min-width: 1024px) {
+
+    .hero {
+        padding: 5rem;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .services {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 2rem 5rem;
+    }
+
+}
