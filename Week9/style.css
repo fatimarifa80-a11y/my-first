@@ -76,3 +76,30 @@ footer {
     background-color: #172554;
     color: white;
 }
+@media (min-width: 768px) {
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar ul {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+
+    .hero {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        text-align: left;
+        padding: 3rem;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .services {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
